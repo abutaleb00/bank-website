@@ -25,7 +25,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Demo Account</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -40,7 +40,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Offshore Banking</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -55,7 +55,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Retail Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -70,7 +70,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Retail Deposit</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -85,7 +85,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Car Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -101,7 +101,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Personal Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -116,7 +116,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Business Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -131,7 +131,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Corporate Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -146,7 +146,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Agami Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -161,7 +161,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Lifecare loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -176,7 +176,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Student Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -191,7 +191,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Family Loan</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
