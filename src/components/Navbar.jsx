@@ -147,6 +147,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from "../assets/logo.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -156,7 +157,7 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { id: 1, text: 'About EBL' },
+    { id: 1, text: 'About Demo' },
     { id: 2, text: 'Retail & SME' },
     { id: 3, text: 'Corporate' },
     { id: 4, text: 'Islamic Banking' },
@@ -168,13 +169,16 @@ const Navbar = () => {
   return (
     <div className='bg-[#F5F5F5] flex justify-between items-center h-full w-full mx-auto px-4 text-black'>
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
+      <Link to="/">
+      
       <img src={logo} className='w-60' alt='logo' />
+      </Link>
 
       <ul className='hidden md:flex'>
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 hover:bg-[#2635a4] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
+            className='p-4 hover:bg-[#2635a4] hover:text-white rounded-xl m-2 cursor-pointer duration-300'
           >
             {item.text}
           </li>

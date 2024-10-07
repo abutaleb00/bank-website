@@ -1,29 +1,34 @@
+// Filename - App.js
+ 
 import React from "react";
 import "./App.css";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import Gallery from "./components/Gallery";
-import Brand from "./components/Brand";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import TextSlider from "./components/TextSlider";
-
-
-
-
+import LoanDetails from "./pages/LoanDetails";
+ 
 function App() {
-
-  return (
-    <div className="">
-      <Navbar />
-      <Slider />
-      <TextSlider />
-      <Gallery />
-      <Brand />
-      <Footer />
-      <Contact />
-    </div>
-  )
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                {/* <Route path="/about" element={<About />} /> */}
+                <Route
+                    path="/loan-details"
+                    element={<LoanDetails />}
+                />
+            </Routes>
+            <Footer />
+            <Contact />
+        </Router>
+    );
 }
-
-export default App
+ 
+export default App;
