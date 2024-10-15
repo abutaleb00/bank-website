@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import LoanDetails from "./pages/LoanDetails";
+import IndividualDetails from "./pages/IndividualDetails";
  
 function App() {
     return (
@@ -23,6 +24,10 @@ function App() {
                 <Route
                     path="/loan-details"
                     element={<LoanDetails />}
+                />
+                <Route
+                    path="/individual-loan-details"
+                    element={<IndividualDetails />}
                 />
             </Routes>
             <Footer />

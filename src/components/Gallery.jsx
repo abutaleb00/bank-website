@@ -25,7 +25,7 @@ const Gallery = () => {
                         <Link to="/loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
                                 <h1 className='text-2xl font-bold text-white'>Demo Account</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Demo Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
@@ -37,10 +37,10 @@ const Gallery = () => {
                             <img className='h-full w-full group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500' src={ebl} alt='sky' />
                         </div>
                         <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-                        <Link to="/loan-details">
+                        <Link to="/individual-loan-details">
                             <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
-                                <h1 className='text-2xl font-bold text-white'>Offshore Banking</h1>
-                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Current Account offers an array of services such as online banking.</p>
+                                <h1 className='text-2xl font-bold text-white'>Individual Account</h1>
+                                <p className='italic text-white mb-3 group-hover:opacity-100 transition-opacity duration-300'>Individual Account offers an array of services such as online banking.</p>
                                 <button className='rounded-full shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
                                     See More
                                 </button>
