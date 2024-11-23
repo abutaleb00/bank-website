@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import LoanDetails from "./pages/LoanDetails";
 import IndividualDetails from "./pages/IndividualDetails";
+import RtgsLoadDetails from "./pages/RtgsLoadDetails";
  
 function App() {
     return (
@@ -28,6 +29,10 @@ function App() {
                 <Route
                     path="/individual-loan-details"
                     element={<IndividualDetails />}
+                />
+                <Route
+                    path="/rtgs-loan-details"
+                    element={<RtgsLoadDetails />}
                 />
             </Routes>
             <Footer />

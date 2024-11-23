@@ -1,7 +1,9 @@
 import React from 'react'
-
+import { useLocation } from 'react-router-dom'
 
 const LoanDetails = () => {
+    const location = useLocation()
+console.log("location", location)
     return (
         <>
             <div className="container mx-auto py-8 bg-[#ffffff]">
